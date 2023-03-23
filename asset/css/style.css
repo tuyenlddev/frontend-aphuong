@@ -1,0 +1,223 @@
+/* Reset box-sizing to border-box */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin and padding */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol,
+  figure, blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove text decoration */
+a {
+    text-decoration: none;
+  }
+
+  /* set color */
+:root {
+    --primary-color: #2daaed;
+    }
+
+.color_grey-3 {
+    color: #333;
+}
+.color_grey-9 {
+    color: #999;
+}
+.color_grey-d {
+    color: #ddd;
+}
+.color_grey-e {
+    color: #eee;
+}
+.color_grey-f {
+    color: #fff;
+}
+
+ /* Set default font family and size */
+ body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+
+
+  /* set font-size */
+.fs-11 {
+    font-size: 11px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+
+
+
+
+/* set css section content */
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+
+/* set css breadcrumb  */
+.breadcrumb {
+    margin: 12px 0;
+}
+.breadcrumb__top {
+    margin-bottom: 6px;
+}
+.breadcrumb__top a {
+    color: #999;
+}
+.breadcrumb__home {
+
+}
+.breadcrumb__category {
+
+}
+.breadcrumb__singer {
+
+}
+.breadcrumb__title {
+
+}
+.breadcrumb__title a {
+    color: #333;
+}
+
+/* set css .audio_control */
+.audio_control {
+
+}
+
+.audio_control audio {
+    width: 840px;
+    background-color: #f1f3f4;
+}
+
+/* set css .menu_player */
+.menu_player {
+    margin: 18px 0 8px;
+}
+.menu_player__list {
+    text-align: end;
+}
+.menu_player__list li {
+    display: inline-block;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.menu_player__list .fa-solid {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+/* set css box_lyrics */
+.box_lyrics {
+    padding: 20px;
+    border: solid 1px #ddd;
+    border-radius: 2px;
+    margin-bottom: 120px;
+}
+.box_lyrics hr {
+    border-top: 1px solid #ddd; /* Đường kẻ ở trên */
+    border-bottom: none; /* Không có đường kẻ ở dưới */
+}
+.box_lyrics__name {
+    position: relative;
+    margin-bottom: 12px;
+}
+.lyrics__coppy {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #eee;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.lyrics__coppy .fa-regular {
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+}
+.name__title {
+
+}
+.name__musician {
+    margin: 4px 0;
+}
+.name__post {
+
+}
+.name__post a {
+    color: var(--primary-color);
+}
+
+
+/* set css box_lyrics__paragraph */
+.box_lyrics__paragraph {
+    background: transparent url(https://stc-id.nixcdn.com/v11/images/line_lyric.png) left -5px;
+}
+.box_lyrics__paragraph .fa-solid {
+    height: 16px;
+    width: 16px;
+    margin-right: 2px;
+}
+.box_lyrics__paragraph p {
+    line-height: 28px;
+}
+.box_lyrics__seemore {
+    color: var(--primary-color);
+    margin-top: 6px;
+    cursor: pointer;
+}
+.box_lyrics--hidden {
+    display: none;
+}
+.box_lyrics--shorten {
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+  
+
+
+
+
+
+
+
